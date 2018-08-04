@@ -1,0 +1,87 @@
+body {
+
+    background-image: url("./images/dust_scratches.png");
+}
+
+#logo {
+
+    background-color: #4aaaa5;
+    height: 100px;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 35px;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+#mylogo {
+
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    margin-left: -65px;
+    margin-top: -20px;
+
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+    height: 100%;
+   
+}
+
+li {   
+    padding: 30px;
+}
+
+a {
+
+    text-decoration: none;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+}
+
+#main {
+
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    height: 100%;
+    margin: 20px;
+    background-color: white;
+}
+
+    #col1 {
+
+       color: #4aaaa5;
+       background-color: gray;
+        
+    }
+
+    #col2 {
+
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        border-color: blue;
+        border: double;
+        color: #4aaaa5;
+        text-align: left;
+    }
+
+    .btn {
+
+        background-image: url("./images/mylogo.png");
+        background-size: 100%;
+        height: 225px;
+        width: 150px;
+    }
+
+   
+
+   
