@@ -3,84 +3,325 @@ body {
     background-image: url("./images/dust_scratches.png");
 }
 
-#logo {
+#container {
 
-    background-color: #4aaaa5;
-    height: 100px;
-    margin: 20px;
-    font-weight: bold;
-    font-size: 35px;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
+    width: 960px;
+    margin: 0px auto;
 }
 
-#mylogo {
+.main {
 
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;
-    margin-left: -65px;
+
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+padding: 20px;
+padding-top: 5px;
+padding-bottom: 5px;
+background-color: #ffffff;
+color: #777777;
+line-height: 1.7;
+
+}
+
+
+h2 {
+
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    border-bottom: 3px solid gainsboro; 
+    background-color: #ffffff; 
+    
+
+}
+
+.imc {
+
+width: 90px;
+height: 155px;
+margin-right: 20px;
+margin-bottom: 7px;
+float: left;
+
+}
+
+.foot {
+
+background-color: #666666;
+margin: 0;
+text-align: center;
+padding: 15px;
+font-size: 15px;
+border-top: 7px solid #4aaaa5; 
+
+}
+
+.header {
+
     margin-top: -20px;
-
+    height: 100px;
+    background-color: #ffffff;
 }
 
-ul {
+.header ul {
+
+    font-family: Georgia, Times, 'Times New Roman', serif;
     padding: 0;
+    margin: 0;
     list-style-type: none;
     text-align: center;
-    font-size: 25px;
+    color: gainsboro;
+    font-size: 15px;
+    background-color: #ffffff;
     font-weight: bold;
-    margin-top: 15px;
-    height: 100%;
    
 }
 
-li {   
-    padding: 30px;
+.header li {
+
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    display: inline;
+    padding: 10px;
+    vertical-align: right;
+    color: gainsboro;
 }
 
-a {
+.header a {
 
     text-decoration: none;
     font-family: Georgia, Times, 'Times New Roman', serif;
-    color: #4aaaa5;
+    color: gainsboro;
+    background-color: #ffffff;
+    border-right: 1px solid gainsboro;
+    padding-right: 10px;
+  
+
 }
 
-#main {
+h4 {
+    background-color: #4aaaa5;
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffffff;
+    float: left;
+    padding: 20px;
+    margin-bottom: 0;
+    margin-left: 184px;
+
+
+
+}
+
+.form {
 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    font-size: 25px;
-    height: 100%;
-    margin: 20px;
-    background-color: white;
+    color: #777777;
+
 }
 
-    #col1 {
+.name {
 
-       color: #4aaaa5;
-       background-color: gray;
+    width: 100%;
+
+}
+
+.email {
+
+    width: 100%;
+
+}
+
+.message {
+
+    width: 100%;
+
+}
+
+.button {
+
+    background-color: #4aaaa5;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.images {
+
+    display: inline-block;
+}
+
+.photos {
+    position: relative;
+  }
+  
+  .one {
+    animation-name: fade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    margin-left: 0px;
+}
+
+  .two {
+      animation-name: fade;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-duration: 4s;
+      animation-direction: alternate;
+      margin-left: 50px;
+  }
+
+  .three {
+    animation-name: fade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    margin-left: 65px;
+}
+
+.four {
+    animation-name: fade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    margin-left: 75px;
+}
+  
+  @keyframes fade {
+      0% {
+          opacity: 1;
+      }
+      25% {
+          opacity: 1;
+      }
+      75% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 0;
+      }
+  }
+
+#buttons {
+
+    position: relative;
+    height: 250px;
+    width: 250px;
+    bottom: 160px;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
+    border: solid;
+    border-width: thin;
+    margin-right: 450px;
+    background-color: #4aaaa5;
+    text-align: center;
+
+
+}
+
+.img1 {
+    position: relative;
+    margin: 50px;
+}
+
+.img2 {
+
+    margin: 50px;
+
+}
+
+.img3 {
+
+    margin: 50px;
+
+}
+
+.img4 {
+
+    margin: 50px;
+
+}
+
+.img5 {
+
+    margin: 50px;
+
+}
+
+@media (max-width: 980px) {
+
+    .main 
+    {
+  margin-right: 200px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+
+
+
+    div.main {
+
+        
+        margin-right: 400px;
+       
+    }
+
+    .foot {
+
+        float: left;
+        width: 530px;
+        margin-right: 200px;
+
+    }
+
+    h4 {
+
+        float: left;
+        margin-left: 0;
+        margin-right: 175px;
+
+    }
+}
+
+@media (max-width: 640px) {
+
+    .header a {
+        float: left;
+        display: block;
+        padding: 14px 16px;
+        padding-bottom: 5px;
+
+    }
+
+    div.main {
+
+        
+        margin-right: 500px;
         
     }
 
-    #col2 {
+    .foot {
 
-        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-        border-color: blue;
-        border: double;
-        color: #4aaaa5;
-        text-align: left;
+        float: left;
+        width: 450px;
+        margin-right: 500px;
+
     }
 
-    .btn {
+    h4 {
 
-        background-image: url("./images/mylogo.png");
-        background-size: 100%;
-        height: 225px;
-        width: 150px;
+        float: left;
+        margin-left: 0;
+        margin-right: 175px;
+
     }
+
+}
 
    
 
